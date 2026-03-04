@@ -4,7 +4,7 @@ export const Loader = () => {
   return (
     <div className={styles.loaderContainer}>
       <span className={styles.spinner} />
-      <p>Cargando Pokémon...</p>
+      <p>Cargando...</p>
     </div>
   )
 }

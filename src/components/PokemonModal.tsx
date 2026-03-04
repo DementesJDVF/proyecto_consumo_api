@@ -7,9 +7,9 @@ interface PokemonModalProps {
 }
 
 const statLabels: Record<string, string> = {
-  hp: 'HP',
-  attack: 'Ataque',
-  defense: 'Defensa',
+  hp: 'Puntos de Vida',
+  attack: 'Puntos de Ataque',
+  defense: 'Puntos de Defensa',
   'special-attack': 'At. Especial',
   'special-defense': 'Def. Especial',
   speed: 'Velocidad',

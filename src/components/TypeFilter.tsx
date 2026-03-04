@@ -8,7 +8,7 @@ interface TypeFilterProps {
 
 export const TypeFilter = ({ types, activeType, onChange }: TypeFilterProps) => {
   return (
-    <section className={styles.wrapper} aria-label="Filtro por tipo de Pokémon">
+    <section className={styles.wrapper} aria-label="Filtro.">
       <button
         type="button"
         className={activeType === 'all' ? styles.active : ''}

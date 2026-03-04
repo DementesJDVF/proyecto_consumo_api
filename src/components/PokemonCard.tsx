@@ -7,9 +7,9 @@ interface PokemonCardProps {
 }
 
 const statLabels: Record<string, string> = {
-  hp: 'HP',
-  attack: 'Ataque',
-  defense: 'Defensa',
+  hp: 'Puntos de Vida',
+  attack: 'Puntos de Ataque',
+  defense: 'Puntos de Defensa',
 }
 
 export const PokemonCard = ({ pokemon, onSelect }: PokemonCardProps) => {

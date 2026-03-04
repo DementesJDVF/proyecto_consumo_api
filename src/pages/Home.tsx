@@ -47,7 +47,7 @@ export const Home = ({ darkMode, onToggleDarkMode }: HomeProps) => {
     <main className={styles.container}>
       <Navbar darkMode={darkMode} onToggleDarkMode={onToggleDarkMode} />
       <p className={styles.subtitle}>
-        Explora estadísticas reales de Pokémon con búsqueda, filtros visuales, detalle interactivo y paginación.
+        Explora la coleccion de pokemones.
       </p>
 
       <SearchBar
