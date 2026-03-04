@@ -9,7 +9,8 @@ export const Navbar = ({ darkMode, onToggleDarkMode }: NavbarProps) => {
   return (
     <header className={styles.navbar}>
       <div>
-        <h1>POKEMON API POR THE BURRO</h1>
+        <p className={styles.tag}>creada por "dementesJDVF"</p>
+        <h1>POKEMONES</h1>
       </div>
       <button type="button" className={styles.toggle} onClick={onToggleDarkMode}>
         {darkMode ? '☀️ Modo claro' : '🌙 Modo oscuro'}
