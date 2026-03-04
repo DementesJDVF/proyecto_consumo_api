@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.form input {
+  flex: 1 1 220px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: inherit;
+  padding: 0.75rem;
+}
+
+.form button {
+  border: 0;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #0284c7;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.form button:hover {
+  transform: translateY(-1px);
+}
+
+:global(body[data-theme='light']) .form input {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
