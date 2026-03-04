@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #38bdf8;
+}
+
+.toggle {
+  border: 0;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+:global(body[data-theme='light']) .toggle {
+  background: #cbd5e1;
+  color: #0f172a;
+}
